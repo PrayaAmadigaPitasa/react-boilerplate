@@ -1,1 +1,1 @@
-export type ClassNameType = "App" | "App-header";
+export type ClassNameType = "App" | "App-header" | "App-logo" | "App-link";
