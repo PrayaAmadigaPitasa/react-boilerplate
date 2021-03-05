@@ -1,12 +1,13 @@
 import { DetailedHTMLProps, HTMLAttributes } from "react";
 import { FONT_FAMILY_MAP } from "../../consts";
-import { FontWeightType } from "../../types";
+import { CSSClassNameType, FontWeightType } from "../../types";
 
 export interface TextProps
   extends DetailedHTMLProps<
     HTMLAttributes<HTMLParagraphElement>,
     HTMLParagraphElement
   > {
+  className?: CSSClassNameType;
   fontWeight?: FontWeightType;
 }
 
