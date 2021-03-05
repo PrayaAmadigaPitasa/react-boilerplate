@@ -10,6 +10,6 @@ export function useTheme(type?: ThemeType) {
   return type ? THEME_MAP[type] : theme;
 }
 
-export function useThemeState() {
+export function useThemeTypeState() {
   return useContext(ThemeContextState)!;
 }

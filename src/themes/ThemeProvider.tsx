@@ -8,12 +8,12 @@ export interface ThemeProviderProps {
   children: ReactNode;
 }
 
-export default function ThemeProvider({ ...children }: ThemeProviderProps) {
-  const state = useState<ThemeType>("light");
-  const theme = state[0];
+export default function ThemeProvider({ children }: ThemeProviderProps) {
+  const stateTheme = useState<ThemeType>("light");
+  const theme = stateTheme[0];
 
   return (
-    <ThemeContextState.Provider value={state}>
+    <ThemeContextState.Provider value={stateTheme}>
       <ThemeContext.Provider value={THEME_MAP[theme]}>
         {children}
       </ThemeContext.Provider>
