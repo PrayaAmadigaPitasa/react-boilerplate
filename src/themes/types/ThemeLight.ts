@@ -1,4 +1,4 @@
-import { Theme } from "../../types";
+import { Theme } from "../Theme";
 
 export const THEME_LIGHT: Theme = {
   "primary-1": "#DDEBFF",

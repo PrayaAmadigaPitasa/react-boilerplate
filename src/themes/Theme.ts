@@ -1,3 +1,5 @@
+export type ThemeType = "light" | "dark";
+
 export type ThemeColorKeys =
   | "primary-1"
   | "primary-2"
@@ -62,3 +64,7 @@ export type ThemeColorKeys =
   | "purple-7"
   | "purple-8"
   | "purple-9";
+
+export type Theme = { [K in ThemeColorKeys]: string };
+
+export type ThemeMap = { [K in ThemeType]: Theme };
