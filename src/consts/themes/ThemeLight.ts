@@ -1,4 +1,4 @@
-import { Theme } from "../../types/themes/ThemeType";
+import { Theme } from "../../types";
 
 export const THEME_LIGHT: Theme = {
   "primary-1": "#DDEBFF",
@@ -46,4 +46,22 @@ export const THEME_LIGHT: Theme = {
   "danger-7": "#A3235B",
   "danger-8": "#831651",
   "danger-9": "#6C0D4A",
+  "faux-turquoise-1": "#D9FFE2",
+  "faux-turquoise-2": "#B4FFCE",
+  "faux-turquoise-3": "#8EFFC0",
+  "faux-turquoise-4": "#72FFBE",
+  "faux-turquoise-5": "#44FFBC",
+  "faux-turquoise-6": "#31DBAF",
+  "faux-turquoise-7": "#22B79F",
+  "faux-turquoise-8": "#15938C",
+  "faux-turquoise-9": "#0D767A",
+  "purple-1": "#F4DDFD",
+  "purple-2": "#E6BBFB",
+  "purple-3": "#D197F5",
+  "purple-4": "#BB7BEC",
+  "purple-5": "#9B51E0",
+  "purple-6": "#793BC0",
+  "purple-7": "#5A28A1",
+  "purple-8": "#3F1981",
+  "purple-9": "#2C0F6B",
 };
