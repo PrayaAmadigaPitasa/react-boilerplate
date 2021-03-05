@@ -1,1 +1,1 @@
-export * from "./ThemeType";
+export * from "./ThemeColorType";
