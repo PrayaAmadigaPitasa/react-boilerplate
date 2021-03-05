@@ -1,1 +1,1 @@
-export * from "./gift-shop";
+export * from "./feature";

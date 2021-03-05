@@ -1,10 +1,10 @@
-import { GiftShopScreen } from "./screens";
+import { NavigationStack } from "./navigations";
 import { ThemeProvider } from "./themes";
 
 export default function App() {
   return (
     <ThemeProvider>
-      <GiftShopScreen />
+      <NavigationStack />
     </ThemeProvider>
   );
 }
