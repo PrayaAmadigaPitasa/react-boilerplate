@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+@font-face {
+  font-family: "Raleway-Regular";
+  src: local("Raleway-Regular"),
+    url(./assets/fonts/Raleway-Regular.ttf) format("truetype");
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
