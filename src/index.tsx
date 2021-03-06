@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 import { initTranslation } from "./i18n";
+import "./assets/css/index.css";
+import "./assets/css/main.css";
+import "./assets/css/fontello.css";
 import App from "./App";
-import "./index.css";
-import "./App.css";
-import "./fontello.css";
 
 initTranslation();
 
