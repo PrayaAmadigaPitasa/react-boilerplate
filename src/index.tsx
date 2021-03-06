@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import "./App.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { initTranslation } from "./i18n";
+import App from "./App";
+import "./index.css";
+import "./App.css";
+import "./fontello.css";
 
 initTranslation();
 
