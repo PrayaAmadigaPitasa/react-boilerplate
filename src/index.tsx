@@ -4,6 +4,9 @@ import "./index.css";
 import "./App.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { initTranslation } from "./i18n";
+
+initTranslation();
 
 ReactDOM.render(
   <React.StrictMode>
