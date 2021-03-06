@@ -10,16 +10,22 @@ export interface IconProps
   > {
   prefix?: string;
   type: IconType;
+  size?: number;
   className?: CSSClassNameType | CSSClassNameType[];
 }
 
 export default function Icon({
   prefix = "icon-",
   type,
+  size = 16,
   className,
   ...props
 }: IconProps) {
   return (
-    <i {...props} className={`${getClassName(className)} ${prefix}${type}`} />
+    <i
+      {...props}
+      className={`${getClassName(className)} ${prefix}${type}`}
+      style={{ fontSize: size }}
+    />
   );
 }
