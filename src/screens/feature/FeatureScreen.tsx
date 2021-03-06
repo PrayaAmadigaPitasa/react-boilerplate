@@ -1,6 +1,6 @@
 import logo from "../../logo.svg";
 
-export default function GiftShopScreen() {
+export default function FeatureScreen() {
   return (
     <div className="App">
       <header className="App-header">
