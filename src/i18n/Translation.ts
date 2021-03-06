@@ -1,5 +1,5 @@
 import i18next, { TOptions } from "i18next";
-import { useCallback } from "react";
+import { useCallback, useMemo } from "react";
 import {
   initReactI18next,
   useTranslation as useTranslationOrigin,
@@ -7,6 +7,7 @@ import {
 } from "react-i18next";
 import { TranslationKey } from "./TranslationKey";
 import { TRANSLATION_EN, TRANSLATION_ID } from "./translations";
+import { TranslationState } from "./TranslationType";
 
 export function initTranslation() {
   if (!i18next.isInitialized) {
@@ -31,7 +32,14 @@ export function useTranslation(options?: UseTranslationOptions) {
     options
   );
 
-  const translate = useCallback((key: TranslationKey): string => t(key), [t]);
+  const translate = useCallback((key: TranslationKey) => t(key), [t]);
 
-  return { translate, ready, i18n };
+  return useMemo<TranslationState>(
+    () => ({
+      translate,
+      ready,
+      i18n,
+    }),
+    [translate, ready, i18n]
+  );
 }
