@@ -1,0 +1,27 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./"
+        ],
+        "alias": {
+          "@components": "./src/components",
+          "@constants": "./src/constants",
+          "@i18n": "./src/i18n",
+          "@metrics": "./src/metrics",
+          "@navigations": "./src/navigations",
+          "@screens": "./src/screens",
+          "@themes": "./src/themes",
+          "@types": "./src/types",
+          "@utils": "./src/utils",
+          "@windows": "./src/windows"
+        }
+      }
+    ]
+  ]
+}

@@ -1,4 +1,4 @@
-import { FeatureScreen } from "../../screens";
+import { FeatureScreen } from "@screens";
 import { NavigationMap } from "../NavigationType";
 import { NavigationParamFeature } from "./NavigationParamFeature";
 
