@@ -1,5 +1,5 @@
-import i18next, { TOptions } from "i18next";
 import { useCallback, useMemo } from "react";
+import i18next, { TOptions } from "i18next";
 import {
   initReactI18next,
   useTranslation as useTranslationOrigin,
