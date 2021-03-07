@@ -1,4 +1,4 @@
-import { CSSClassNameType } from "../../types";
+import { CSSClassNameType } from "@types";
 
 export function getClassName(
   className?: CSSClassNameType | CSSClassNameType[]
