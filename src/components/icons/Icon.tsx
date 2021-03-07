@@ -1,5 +1,5 @@
-import { CSSClassNameType, IconType } from "../../types";
-import { getClassName } from "../../utils";
+import { CSSClassNameType, IconType } from "@types";
+import { getClassName } from "@utils";
 
 // @ts-ignore
 // override classname type and add array value.
