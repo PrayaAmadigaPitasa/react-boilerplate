@@ -1,5 +1,5 @@
 import { AnchorHTMLAttributes, DetailedHTMLProps } from "react";
-import { CSSClassNameType } from "../../types";
+import { CSSClassNameType } from "@types";
 
 export interface ViewLinkProps
   extends DetailedHTMLProps<
