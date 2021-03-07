@@ -1,5 +1,5 @@
 import { ReactNode, useCallback, useEffect, useState } from "react";
-import { Layout } from "../types";
+import { Layout } from "@types";
 import { WindowLayoutContext } from "./WindowContext";
 
 export interface WindowProviderProps {
