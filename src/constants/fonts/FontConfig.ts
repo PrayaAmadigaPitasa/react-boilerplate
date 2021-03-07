@@ -1,4 +1,4 @@
-import { FontFamilyMap } from "../../types";
+import { FontFamilyMap } from "@types";
 
 export const FONT_FAMILY_MAP: FontFamilyMap = {
   regular: "Raleway-Regular",
